@@ -12,7 +12,7 @@ This repository documents hands-on exercises with Nmap and Scapy, covering netwo
 ### Conclusion <br>
 
 ## Overview
-this project documents hands-on practical commands for;
+This project documents hands-on practical commands for;
 - Host discovery
 - Port enumeration
 - SMB enumeration
@@ -107,18 +107,24 @@ stop with ctrl + C
 - ping -c 4 google.com to ping just 4 packets
 
 - ctrl c to stop the sniff, <Sniffed: TCP:2332 UDP:537 ICMP:82 Other:33>
-paro=_
-paro.summary()
-sniff(iface="br-internal")
-ctrl c
-paro2=_
-paro2.summary()
-sniff(iface="br-internal", filter = "icmp", count = 3
-... : )
-ctrl c
-paro3=_
-paro3.summary()
-it filters for icmp only
-paro3.nsummary()
-paro3[3] type=echo-reply
-paro3[2] type=echo-request
+paro=_ <br>
+paro.summary() <br>
+sniff(iface="br-internal") <br>
+ctrl c <br>
+paro2=_ <br>
+paro2.summary() <br>
+sniff(iface="br-internal", filter = "icmp", count = 3 <br>
+... : ) <br>
+ctrl c <br>
+paro3=_ <br>
+paro3.summary() <br>
+it filters for icmp only <br>
+paro3.nsummary() <br>
+paro3[3] type=echo-reply <br>
+paro3[2] type=echo-request <br>
+
+## Screenshots
+/home/kali/Pictures/Screenshot_2025-12-12_17_37_50.png - Nmap Version <br>
+/home/kali/Pictures/Screenshot_2025-12-12_17_46_15 Host Discovery.png <br>
+/home/kali/Pictures/Screenshot_2025-12-12_17_48_49 operating system detection and open ports.png <br>
+
