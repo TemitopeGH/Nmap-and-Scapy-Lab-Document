@@ -137,3 +137,18 @@ paro3[2] type=echo-request <br>
 <img width="1366" height="702" alt="Screenshot_2025-12-12_18_20_44 SMB Enumeration" src="https://github.com/user-attachments/assets/abefbf0a-176b-4992-bf36-b7824b138cd2" />
 
 <img width="1366" height="702" alt="Screenshot_2025-12-12_18_24_00 scapy" src="https://github.com/user-attachments/assets/94f4ef20-f8ab-4198-b2d9-ac86edd987cc" />
+
+## Conclusion
+This README serves as a professional reference for:
+- Network reconnaissance
+- Enumeration
+- Traffic capture
+- Packet analysis
+- Scapy automation
+
+It is suitable for:
+- Cybersecurity students
+- SOC analysts
+- Penetration testing beginners
+- Home lab builders
+  
